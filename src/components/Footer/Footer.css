@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.socialLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+.lightfooter{
+    background-color: whitesmoke;
+    color: #000;
+    padding: 10px 0;
+    box-shadow: 0 0 10px rgba(46, 42, 42, 0.1);
+    width: 100%;
+    transition: all 0.3s ease;
+}
+.darkfooter{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    transition: all 0.3s ease;
+}

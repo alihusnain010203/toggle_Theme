@@ -1,0 +1,68 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    width: 100%;
+    height: 75px;
+}
+.lightnav{
+    background-color: whitesmoke;
+    color: #000;
+    box-shadow: 0 0 10px rgba(46, 42, 42, 0.1);
+    padding: 10px 0;
+
+    top: 0;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+.lightnav .logo{
+    color: #000;
+}
+
+.lightlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+
+}
+.lightlinks a{
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+.lightlinks a:hover{
+    color: #007bff;
+}
+.darklinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.darklinks a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+.darklinks a:hover{
+    color: #007bff;
+}
+
+.darknav{
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(51, 60, 92, 0.1);
+    padding: 10px 0;
+  
+    top: 0;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+.darknav .logo{
+    color: #fff;
+}
